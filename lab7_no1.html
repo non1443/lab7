@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script>
+        function cal(num1, num2) {
+            var num1 = document.getElementById("num1").value;
+            var num2 = document.getElementById("num2").value;
+            
+            var sum = (parseInt(num1) + parseInt(num2));
+            
+            document.getElementById("result").value = sum;
+        }
+    </script>
+</head>
+
+<body>
+    <input type="text" id="num1">
+    <label>+</label>
+    <input type="text" id="num2">
+    <label>=</label>
+    <input type="text" id="result">
+    <input type="button" id="Result" value="Go Go" onclick="cal()">
+</body>
+
+</html>
